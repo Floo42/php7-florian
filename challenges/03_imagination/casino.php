@@ -2,7 +2,7 @@
 /*
 Le but du jeu est de miser une valeur comprise entre 1 et 100€
 L'ordinateur génère une valeur entre 1 et 100.
-Si la valeur misée supérieure, le joueur repart avec sa mise et la différence entre sa valeur et 100
+Si la valeur misée est supérieure, le joueur repart avec sa mise et la différence entre sa valeur et 100
 Exemple : le joueur mise 50€, l'ordinateur génère 20, le joueur repart avec 50 + 50 soit 100€
 Il n'y a donc aucune somme de plus de 100€ en jeu
 
