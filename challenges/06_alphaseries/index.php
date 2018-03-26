@@ -4,9 +4,6 @@ require_once (__DIR__.'/src/functions/random_banner.php');
 require_once (__DIR__.'/src/functions/popular_sort.php');
 require_once (__DIR__.'/src/functions/rating_sort.php');
 
-global $projectDir;
-$projectDir = __DIR__;
-
  ?>
 
 <!doctype html>
@@ -112,7 +109,7 @@ $projectDir = __DIR__;
                         </div>
                     </p>
                     <p>
-                        <a class="btn btn-outline-secondary" href="classement.html" role="button">
+                        <a class="btn btn-outline-secondary" href="classement.php?type=popular" role="button">
                             <i class="fa fa-trophy"></i> Voir tout le classement
                         </a>
                     </p>
@@ -150,7 +147,7 @@ $projectDir = __DIR__;
                         </div>
                     </p>
                     <p>
-                        <a class="btn btn-outline-secondary" href="classement.html" role="button">
+                        <a class="btn btn-outline-secondary" href="classement.php?type=vote" role="button">
                             <i class="fa fa-trophy"></i> Voir tout le classement
                         </a>
                     </p>

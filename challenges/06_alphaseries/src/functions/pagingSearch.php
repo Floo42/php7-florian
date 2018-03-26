@@ -2,6 +2,14 @@
 
 function paginationResults($page, $nbresults){
 
+
+    if ($page<1){
+        $page=1;
+    }
+    if ($page>100){
+        $page=100;
+    }
+
 $pagesMax=ceil($nbresults/10);
 
     if ($page==1 && $pagesMax >= 3){

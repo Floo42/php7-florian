@@ -10,6 +10,14 @@ $shows = ratingSort();
 for($i=0;$i<10;$i++){
     $concat = ($page-1).$i;
 
+    if ($page<1){
+        $page=1;
+    }
+    if ($page>100){
+        $page=100;
+    }
+
+
     if ($page==1){
         $concat=$i;
     }

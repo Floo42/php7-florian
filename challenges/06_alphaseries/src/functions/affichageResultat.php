@@ -13,7 +13,6 @@ $i=0;
 
 foreach($results as $slug){
 
-
     $concat = ($page-1).$i;
 
 if ($page==1){

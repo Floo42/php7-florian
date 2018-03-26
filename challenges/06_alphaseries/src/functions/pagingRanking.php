@@ -1,6 +1,13 @@
 <?php
 function paginationClassement($page){
 
+    if ($page<1){
+        $page=1;
+    }
+    if ($page>100){
+        $page=100;
+    }
+
 //Page 1
 if ($page==1){
 print "

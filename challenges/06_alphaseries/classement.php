@@ -2,7 +2,7 @@
 
 require_once(__DIR__.'/src/functions/displayClassementPopular.php');
 require_once(__DIR__.'/src/functions/displayClassementVote.php');
-require_once(__DIR__.'/src/functions/pagination.php');
+require_once(__DIR__.'/src/functions/pagingRanking.php');
  ?>
 
 <!doctype html>

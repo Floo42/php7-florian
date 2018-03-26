@@ -2,7 +2,7 @@
 
 require_once(__DIR__.'/src/functions/rechercheSerie.php');
 require_once(__DIR__.'/src/functions/affichageResultat.php');
-require_once(__DIR__.'/src/functions/paginationResults.php');
+require_once(__DIR__.'/src/functions/pagingSearch.php');
 
 if (isset($_GET['page'])){
     $page = $_GET['page'];
